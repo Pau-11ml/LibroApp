@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">libroapp</string>
+
+    <!-- Home Screen -->
+    <string name="home_title">Inicio: Gestión de Libros</string>
+    <string name="menu_description">Menú</string>
+    <string name="welcome_title">Bienvenido a la App</string>
+    <string name="welcome_subtitle">Seleccione una opción para comenzar con su Libros</string>
+    <string name="current_records">Registros actuales: %1$d</string>
+    <string name="btn_ingresar_registro">Ingresar Nuevo Registro</string>
+    <string name="btn_consultar_registros">Consultar Todos los Registros</string>
+    <string name="list_footer_text">Ver el listado de registros</string>
+
+    <!-- List Screen -->
+    <string name="list_title">Registros de Libros</string>
+    <string name="back_description">Regresar</string>
+    <string name="add_libro_description">Agregar libro</string>
+    <string name="empty_list_title">No hay registros aún</string>
+    <string name="empty_list_subtitle">Agrega el primer libro con el botón +</string>
+
+    <!-- Form Screen -->
+    <string name="form_title">Ingresar Nuevo Registro</string>
+    <string name="label_titulo">Título del Libro</string>
+    <string name="placeholder_titulo">El Principito</string>
+    <string name="error_titulo_obligatorio">El título es obligatorio</string>
+    <string name="label_autor">Autor</string>
+    <string name="placeholder_autor">Antoine de Saint-Exupéry</string>
+    <string name="error_autor_obligatorio">El autor es obligatorio</string>
+    <string name="label_anio">Año de Publicación</string>
+    <string name="placeholder_anio">1943</string>
+    <string name="error_anio_obligatorio">El año es obligatorio</string>
+    <string name="label_sinopsis">Sinopsis (opcional)</string>
+    <string name="placeholder_sinopsis">Un aviador perdido...</string>
+    <string name="label_image_url">Nombre del recurso imagen</string>
+    <string name="placeholder_image_url">libro_principito</string>
+    <string name="supporting_text_image_url">Nombre del drawable agregado al proyecto</string>
+    <string name="btn_guardar_libro">Guardar Libro</string>
+</resources>
