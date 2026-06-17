@@ -6,6 +6,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import com.example.libroapp.data.librosDummyIniciales
 
 /**
  * ViewModel containing the app data and methods to process the data
@@ -13,7 +14,11 @@ import kotlinx.coroutines.flow.update
 class LibroViewModel : ViewModel() {
 
     // Game UI state
-    private val _uiState = MutableStateFlow(LibroUiState())
+    private val _uiState = MutableStateFlow(
+        LibroUiState(
+            libros = librosDummyIniciales()
+            )
+    )
     val uiState: StateFlow<LibroUiState> = _uiState.asStateFlow()
 
     fun updateTitulo(titulo: String) {

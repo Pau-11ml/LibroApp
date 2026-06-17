@@ -1,8 +1,6 @@
 package com.example.libroapp.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -17,7 +15,6 @@ fun LibroNavGraph(
     navController: NavHostController,
     libroViewModel: LibroViewModel = viewModel()
 ) {
-    val uiState by libroViewModel.uiState.collectAsStateWithLifecycle()
 
     NavHost(
         navController = navController,
