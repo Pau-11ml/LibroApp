@@ -21,7 +21,7 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import coil.request.ImageRequest
 import com.example.libroapp.R
-import com.example.libroapp.model.Libro
+import com.example.libroapp.data.Libro
 
 @Composable
 fun LibroItem(
